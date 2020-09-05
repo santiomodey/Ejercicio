@@ -17,7 +17,7 @@ namespace SRP
             this.Autor = autor;
             this.Codigo = codigo;
         }
-//No cumple deberia tener otra clase que almacene los libros para sacarle responsabilidad a srp y expert
+//No cumple el patrón SRP deberia tener otra clase que almacene los libros para sacarle responsabilidad a la clase Libro
 
         public void AlmacenarLibro(String sector, String estante)
         {
